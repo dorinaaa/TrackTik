@@ -23,7 +23,6 @@ In essence, the core entity of the application is the Employee. Adapters are uti
 - **Scalability**: The codebase is highly extensible, allowing for seamless addition of new providers and consumers.
 - **Database Integration**: Future plans include implementing a database layer to enhance data management and retrieval.
 - **Testing**: Work is ongoing to improve test coverage for robustness and reliability.
-- **Logging**: Efforts are being made to enhance logging mechanisms for better monitoring and troubleshooting.
 
 ## Installation and Setup
 
