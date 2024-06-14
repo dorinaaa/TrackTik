@@ -1,0 +1,14 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+provider1_create:
+    path: /providers/{type}/{consumer}
+    controller: App\Controller\DataTransferController::index
+    methods: POST
+    requirements:
+        type: 'provider1|provider2'
+        consumer: 'tracktik'
+
+
